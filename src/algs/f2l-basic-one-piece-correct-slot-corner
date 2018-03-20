@@ -1,0 +1,21 @@
+(R U R') U' (R U R')
+y (L F' L' F)2
+
+y (L' U' L) U (L' U' L)
+(R' F R F')2
+
+(R U' R') U (R U' R')
+
+y (L' U L) U' (L' U L)
+
+U' (R' F R F') (R U R')
+R' F' R (U R U' R') F
+U' F' R U R' U' R' F R
+R2 U' R' U R2 *
+D (U R U' R') D' *
+
+U (R U' R' U') y (L' U L)
+y U (L F' L' F) (L' U' L)
+y D (U' L' U L) D' *
+y' R U R U R U' R' U' R'
+
