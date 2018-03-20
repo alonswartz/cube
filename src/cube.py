@@ -4,20 +4,67 @@
 Cube helper script leveraging bottle for template rendering
 Commands:
     render_page <name>
+    render_cases <path/to/algfile>
 
 """
 
 import os
 import sys
 import getopt
+from itertools import izip
 
 import bottle
 
 SRC = os.path.join(os.path.dirname(os.path.realpath(__file__)))
 bottle.TEMPLATE_PATH.extend([os.path.join(SRC, 'templates')])
 
+
+class Case:
+    def __init__(self, default_config):
+        self.algs = []
+        self.config = default_config
+
+    @property
+    def main_alg(self):
+        return self.algs[0].replace('(', '').replace(')', '')
+
+
+class Cases:
+    def __init__(self, algsfile, default_config):
+        self.cases = []
+        self.parse_algs(algsfile, default_config)
+
+    @staticmethod
+    def _chunkwise(t, size):
+        it = iter(t)
+        return izip(*[it]*size)
+
+    @property
+    def grouped_cases(self):
+        return self._chunkwise(self.cases, 2)
+
+    def parse_algs(self, algsfile, default_config):
+        case = Case(default_config)
+        for line in file(algsfile, 'r').readlines():
+            line = line.strip()
+            if line:
+                if line.startswith('config: '):
+                    case.config = line.lstrip('config: ')
+                    continue
+
+                case.algs.append(line)
+            else:
+                self.cases.append(case)
+                case = Case(default_config)
+
 def render_page(name):
     return bottle.template(name, {})
+
+def render_cases(algsfile):
+    if os.path.basename(algsfile).startswith('f2l-basic'):
+        default_config = "base=F2L";
+        cases = Cases(algsfile, default_config).grouped_cases
+        return bottle.template('partials/cases', {'cases': cases})
 
 def usage(e=None):
     if e:
@@ -45,6 +92,9 @@ def main():
     cmd = args[0]
     if cmd == "render_page":
         print render_page(args[1])
+
+    elif cmd == "render_cases":
+        print render_cases(args[1])
 
     else:
         usage("unrecognized command: %s" % cmd)

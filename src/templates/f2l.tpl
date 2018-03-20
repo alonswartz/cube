@@ -20,21 +20,7 @@
       <h1 id="basic-f2l">Basic F2L</h1>
       <h2 id="both-pieces-on-top">Both pieces on top</h2>
       <h3 id="white-sticker-faces-up">White sticker faces up</h3>
-
-      <div class="row justify-content-md-center">
-        <div class="col-md-5 col-sm-6">
-          <div class="roofpig" data-config="base=F2L|alg=U2 R U R' U R U' R'"></div>
-          <div class="text-nowrap">
-            <p class="alg">U2 (R U R') U (R U' R')</p>
-          </div>
-        </div>
-        <div class="col-md-5 col-sm-6">
-          <div class="roofpig" data-config="base=F2L|alg=y U2 L' U' L U' L' U L"></div>
-          <div class="text-nowrap">
-            <p class="alg">y U2 (L' U' L) U' (L' U L)</p>
-          </div>
-        </div>
-      </div>
+      % include('algs/f2l-basic-white-sticker-faces-up.tpl')
     </main>
 
     % include('partials/keyboard-shortcuts.tpl')

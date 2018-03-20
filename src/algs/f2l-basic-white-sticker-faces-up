@@ -1,0 +1,20 @@
+U2 (R U R') U (R U' R')
+
+y U2 (L' U' L) U' (L' U L)
+
+U (R U2 R') U (R U' R')
+
+y U' (L' U2 L) U' (L' U L)
+
+U (R U' R') U' (R U' R' U R U' R')
+U (F R' F' R) U (R U R')
+R U' R2' D' R U2 R' D R
+
+y U' (L' U L) U (L' U L U' L' U L)
+F (U R U' R') F' (R U' R')
+U' R U (R2' F R F') (R U' R')
+
+(R U2 R') U' (R U R')
+
+y (L' U2 L) U (L' U' L)
+
