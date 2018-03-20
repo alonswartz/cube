@@ -1,15 +1,71 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>Cube</title>
+  <title>Cube: F2L</title>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="../media/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../media/css/docs.min.css">
+  <link rel="stylesheet" href="../media/css/style.css">
 </head>
 
-<body>
-  <div class="roofpig" style="width:100px;height:120px;" data-config="base=F2L|alg=U2 R U R' U R U' R'"></div>
-  <p>U2 (R U R') U (R U' R')</p>
+<body data-spy="scroll" data-target="#bd-docs-nav" data-offset="5">
+
+  <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+  <div class="navbar-nav-scroll">
+    <ul class="navbar-nav bd-navbar-nav flex-row">
+      <li class="nav-item"><a class="nav-link" href="/cube">Home</a></li>
+      <li class="nav-item"><a class="nav-link active" href="/cube/f2l">F2L</a></li>
+    </ul>
+  </div>
+  </header>
+
+  <div class="container-fluid">
+    <div class="row flex-xl-nowrap">
+
+      <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+        <div class="my-2 d-flex float-right">
+          <button class="btn btn-link bd-search-docs-toggle d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg></button>
+        </div>
+
+        <nav class="collapse bd-links" id="bd-docs-nav">
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item"><a class="nav-link" href="#basic-f2l">Basic F2L</a></li>
+          <li class="nav-item"><a class="nav-link" href="#both-pieces-on-top">&nbsp;&nbsp;Both pieces on top</a></li>
+          <li class="nav-item"><a class="nav-link" href="#white-sticker-faces-up">&nbsp;&nbsp;&nbsp;&nbsp;White sticker up</a></li>
+        </ul>
+        </nav>
+      </div>
+
+      <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-3 bd-content" role="main">
+
+      <h1 id="basic-f2l">Basic F2L</h1>
+      <h2 id="both-pieces-on-top">Both pieces on top</h2>
+      <h3 id="white-sticker-faces-up">White sticker faces up</h3>
+
+      <div class="row justify-content-md-center">
+        <div class="col-md-5 col-sm-6">
+          <div class="roofpig" data-config="base=F2L|alg=U2 R U R' U R U' R'"></div>
+          <div class="text-nowrap">
+            <p class="alg">U2 (R U R') U (R U' R')</p>
+          </div>
+        </div>
+        <div class="col-md-5 col-sm-6">
+          <div class="roofpig" data-config="base=F2L|alg=y U2 L' U' L U' L' U L"></div>
+          <div class="text-nowrap">
+            <p class="alg">y U2 (L' U' L) U' (L' U L)</p>
+          </div>
+        </div>
+      </div>
+
+      </main>
+
+    </div>
+  </div>
 
   <script src="../media/js/jquery-3.1.1.slim.min.js"></script>
+  <script src="../media/js/popper.min.js"></script>
+  <script src="../media/js/bootstrap.min.js"></script>
   <script src="../media/js/roofpig_and_three.min.js"></script>
   <script>
     ROOFPIG_CONF_F2L = "solved=U*|hover=none|colored=U-|flags=canvas";
