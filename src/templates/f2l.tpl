@@ -1,25 +1,4 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <title>Cube: F2L</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="../media/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../media/css/docs.min.css">
-  <link rel="stylesheet" href="../media/css/style.css">
-</head>
-
-<body data-spy="scroll" data-target="#bd-docs-nav" data-offset="5">
-
-<header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
-  <div class="navbar-nav-scroll">
-    <ul class="navbar-nav bd-navbar-nav flex-row">
-      <li class="nav-item"><a class="nav-link" href="/cube">Home</a></li>
-      <li class="nav-item"><a class="nav-link active" href="/cube/f2l">F2L</a></li>
-    </ul>
-  </div>
-</header>
-
+% rebase('base.tpl', media='../media', title='Cube: F2L')
 
 <div class="container-fluid">
   <div class="row flex-xl-nowrap">
@@ -58,37 +37,8 @@
       </div>
     </main>
 
-<div id="keyboard-shortcuts" class="d-none d-xl-block col-xl-2 bd-toc">
-  <div class="section-nav">
-    <table class="table table-borderless borderless" style="border-top:none;">
-      <thead>
-        <tr><th scope="col" colspan=2>Keyboard shortcuts</th></tr>
-      </thead>
-      <tbody>
-        <tr><td><code>tab</code></td><td>Next cube</td></tr>
-        <tr><td><code>&#x21E7; tab</code></td><td>Previous cube</td></tr>
-        <tr><td><code>&rarr;</code></td><td>Next move</td></tr>
-        <tr><td><code>&larr;</code></td><td>Previous move</td></tr>
-        <tr><td><code>&#x21E7; &rarr;</code></td><td>To end</td></tr>
-        <tr><td><code>&#x21E7; &larr;</code></td><td>To start</td></tr>
-        <tr><td><code>space</code></td><td>Play/Pause</td></tr>
-      </tbody>
-    </table>
-  </div>
-</div>
+    % include('partials/keyboard-shortcuts.tpl')
 
   </div>
 </div>
-
-
-
-<script src="../media/js/jquery-3.1.1.slim.min.js"></script>
-<script src="../media/js/popper.min.js"></script>
-<script src="../media/js/bootstrap.min.js"></script>
-<script src="../media/js/roofpig_and_three.min.js"></script>
-<script>
-  ROOFPIG_CONF_F2L = "solved=U*|hover=none|colored=U-|flags=canvas";
-</script>
-</body>
-</html>
 
