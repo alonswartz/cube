@@ -1,6 +1,11 @@
 body {
   position: relative;
 }
+#keyboard-shortcuts th,
+#keyboard-shortcuts td {
+  border:none;
+  color: rgba(0,0,0,.65);
+}
 #bd-docs-nav .nav-pills .nav-link {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -14,6 +19,9 @@ body {
   width: 100px; 
   height: 120px;
   margin: 0px 20px 20px 0px;
+}
+.roofpig-help-button {
+  display: none;
 }
 .alg {
   margin-bottom: 0px;
