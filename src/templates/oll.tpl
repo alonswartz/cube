@@ -1,4 +1,4 @@
-% rebase('base.tpl', media='../media', title='Cube: OLL')
+% rebase('base.tpl', root='..', title='Cube: OLL')
 
 <div class="container-fluid">
   <div class="row flex-xl-nowrap">
