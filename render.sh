@@ -10,14 +10,21 @@ ALGS_DST="src/templates/algs"
 [ -e $ALGS_SRC ] || fatal "does not exist: $ALGS_SRC"
 [ -e $ALGS_DST ] || fatal "does not exist: $ALGS_DST"
 
-for f in $(ls $ALGS_SRC/f2l-*); do
-    $CUBE render_cases $f > $ALGS_DST/$(basename $f).tpl
-done
-$CUBE render_page f2l > f2l/index.html
+render() {
+    name=$1
+    for f in $(ls $ALGS_SRC/${name}-*); do
+        echo "rendering $ALGS_DST/$(basename $f).tpl"
+        $CUBE render_cases $f > $ALGS_DST/$(basename $f).tpl
+    done
 
+    mkdir -p $name
+    echo "rendering $name/index.html"
+    $CUBE render_page $name > $name/index.html
+}
 
-for f in $(ls $ALGS_SRC/oll-*); do
-    $CUBE render_cases $f > $ALGS_DST/$(basename $f).tpl
-done
-$CUBE render_page oll > oll/index.html
+case "$1" in
+    f2l) render f2l ;;
+    oll) render oll ;;
+    *)   render f2l; render oll; ;;
+esac
 

@@ -31,17 +31,34 @@
       </div>
       <nav class="collapse bd-links" id="bd-docs-nav">
         <ul class="nav nav-pills flex-column">
-          <li class="nav-item"><a class="nav-link nav-h1" href="#2-look-oll">2-Look OLL</a></li>
-          <li class="nav-item"><a class="nav-link nav-h2" href="#2-look-edges">Orient edges</a></li>
-          <li class="nav-item"><a class="nav-link nav-h2" href="#2-look-corners">Orient corners</a></li>
+          <li class="nav-item"><a class="nav-link nav-h1" href="#2look-oll">2-Look OLL</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#2look-edges">Orient edges</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#2look-corners">Orient corners</a></li>
+          <br/>
+          <li class="nav-item"><a class="nav-link nav-h1" href="#full-oll">Full OLL</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#oll-dot">Dot</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#oll-line">Line</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#oll-cross">Cross</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#oll-4corners">4 Corners</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#oll-l-small">Small L</a></li>
+          <li class="nav-item"><a class="nav-link nav-h3" href="#oll-l-small-bl">Back Left: &#9496;</a></li>
+          <li class="nav-item"><a class="nav-link nav-h3" href="#oll-l-small-br">Back Right: &#9492;</a></li>
+          <li class="nav-item"><a class="nav-link nav-h3" href="#oll-l-small-fl">Front Left: &#9488;</a></li>
+          <li class="nav-item"><a class="nav-link nav-h3" href="#oll-l-small-fr">Front Right: &#9484;</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#oll-c">C shapes</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#oll-l">L shapes</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#oll-p">P shapes</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#oll-t">T shapes</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#oll-w">W shapes</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#oll-z">Z shapes</a></li>
         </ul>
       </nav>
     </div>
 
     <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-3 bd-content" role="main">
 
-      <h1 id="2-look-oll">2-Look OLL</h1>
-        <h2 id="2-look-edges">Orient edges</h2>
+      <h1 id="2look-oll">2-Look OLL</h1>
+        <h2 id="2look-edges">Orient edges</h2>
         <p>Ignore the side stickers</p>
 <div class="row">
   <div class="col-md-5 col-sm-6">
@@ -65,7 +82,7 @@
 </div>
 
 
-        <h2 id="2-look-corners">Orient corners</h2>
+        <h2 id="2look-corners">Orient corners</h2>
 <div class="row">
   <div class="col-md-5 col-sm-6">
     <div class="roofpig" data-config="base=OLL|alg=R U R' U R U2' R'"></div>
@@ -107,6 +124,415 @@
     <div class="roofpig" data-config="base=OLL|alg=F R' F' r U R U' r'"></div>
     <div class="text-nowrap">
         <p class="alg">F R' F' r U R U' r'</p>
+    </div>
+  </div>
+</div>
+
+
+      <h1 id="full-oll">Full OLL</h1>
+
+        <div style="margin-bottom: 3rem;" class="alert alert-primary" role="alert">
+          Credit goes to <a target="_blank" href="https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/orient-the-last-layer-oll/">Ruwix</a>
+          for creating this algorithm set.
+        </div>
+
+        <h2 id="oll-dot">Dot</h2>
+<div class="row">
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R U B' Lw U Lw2' x' U' R' F R F'"></div>
+    <div class="text-nowrap">
+        <p class="alg">R U B' Lw U Lw2' x' U' R' F R F'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R' F R F' U2 R' F R y' R2 U2 R"></div>
+    <div class="text-nowrap">
+        <p class="alg">R' F R F' U2 R' F R y' R2 U2 R</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=y L' R2 B R' B L U2' L' B M'"></div>
+    <div class="text-nowrap">
+        <p class="alg">y L' R2 B R' B L U2' L' B M'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R' U2 x R' U R U' y R' U' R' U R' F"></div>
+    <div class="text-nowrap">
+        <p class="alg">R' U2 x R' U R U' y R' U' R' U R' F</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R U R' U R' F R F' U2 R' F R F'"></div>
+    <div class="text-nowrap">
+        <p class="alg">(R U R' U) R' F R F' U2 R' F R F'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=M' U2 M U2 M' U M U2 M' U2 M"></div>
+    <div class="text-nowrap">
+        <p class="alg">M' U2 M U2 M' U M U2 M' U2 M</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R' U2 F R U R' U' y' R2 U2 x' R U"></div>
+    <div class="text-nowrap">
+        <p class="alg">R' U2 F (R U R' U') y' R2 U2 x' R U</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=F R U R' U y' R' U2 R' F R F'"></div>
+    <div class="text-nowrap">
+        <p class="alg">F (R U R' U) y' R' U2 (R' F R F')</p>
+    </div>
+  </div>
+</div>
+
+        <h2 id="oll-line">Line</h2>
+<div class="row">
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R' U' y L' U L' y' L F L' F R"></div>
+    <div class="text-nowrap">
+        <p class="alg">R' U' y L' U L' y' L F L' F R</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R U' y R2 D R' U2 R D' R2 d R'"></div>
+    <div class="text-nowrap">
+        <p class="alg">R U' y R2 D R' U2 R D' R2 d R'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=F U R U' R' U R U' R' F'"></div>
+    <div class="text-nowrap">
+        <p class="alg">F U R U' R' U R U' R' F'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=L' B' L U' R' U R U' R' U R L' B L"></div>
+    <div class="text-nowrap">
+        <p class="alg">L' B' L U' R' U R U' R' U R L' B L</p>
+    </div>
+  </div>
+</div>
+
+        <h2 id="oll-cross">Cross</h2>
+<div class="row">
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=L U' R' U L' U R U R' U R"></div>
+    <div class="text-nowrap">
+        <p class="alg">L U' R' U L' U (R U R' U) R</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R U R' U R U' R' U R U2 R'"></div>
+    <div class="text-nowrap">
+        <p class="alg">(R U R' U) R U' R' U R U2 R'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=L' U R U' L U R'"></div>
+    <div class="text-nowrap">
+        <p class="alg">L' U R U' L U R'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R' U2 R U R' U R"></div>
+    <div class="text-nowrap">
+        <p class="alg">R' U2 (R U R' U) R</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R' F' L F R F' L' F"></div>
+    <div class="text-nowrap">
+        <p class="alg">R' F' L F R F' L' F</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R2 D R' U2 R D' R' U2 R'"></div>
+    <div class="text-nowrap">
+        <p class="alg">R2 D R' U2 R D' R' U2 R'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R' F' L' F R F' L F"></div>
+    <div class="text-nowrap">
+        <p class="alg">R' F' L' F R F' L F</p>
+    </div>
+  </div>
+</div>
+
+        <h2 id="oll-4corners">4 Corners</h2>
+<div class="row">
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=M' U' M U2' M' U' M"></div>
+    <div class="text-nowrap">
+        <p class="alg">M' U' M U2' M' U' M</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=L' R U R' U' L R' F R F'"></div>
+    <div class="text-nowrap">
+        <p class="alg">L' (R U R' U') L R' F R F'</p>
+    </div>
+  </div>
+</div>
+
+        <h2 id="oll-l-small">Small L</h2>
+
+          <h3 id="oll-l-small-bl">Small L (Back Left): &#9496;</h3>
+<div class="row">
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=L F R' F R F2 L'"></div>
+    <div class="text-nowrap">
+        <p class="alg">L F R' F R F2 L'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=F R' F' R U R U' R'"></div>
+    <div class="text-nowrap">
+        <p class="alg">F R' F' R U R U' R'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R' U' R y' x' R U' R' F R U R'"></div>
+    <div class="text-nowrap">
+        <p class="alg">R' U' R y' x' R U' R' F R U R'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=U' R U2' R' U' R U' R2 y' R' U' R U B"></div>
+    <div class="text-nowrap">
+        <p class="alg">U' R U2' R' U' R U' R2 y' R' U' R U B</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=F R U R' U' R U R' U' F'"></div>
+    <div class="text-nowrap">
+        <p class="alg">F (R U R' U') (R U R' U') F'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=L F' L' F U2 L2 y' L F L' F"></div>
+    <div class="text-nowrap">
+        <p class="alg">L F' L' F U2 L2 y' L F L' F</p>
+    </div>
+  </div>
+</div>
+
+          <h3 id="oll-l-small-br">Small L (Back Right): &#9492;</h3>
+<div class="row">
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=U' R' U2 R U R' U R2 y R U R' U' F'"></div>
+    <div class="text-nowrap">
+        <p class="alg">U' R' U2 (R U R' U) R2 y (R U R' U') F'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=r U2 R' U' R U' r'"></div>
+    <div class="text-nowrap">
+        <p class="alg">r U2 R' U' R U' r'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R' U2 Lw R U' R' U Lw' U2 R"></div>
+    <div class="text-nowrap">
+        <p class="alg">R' U2 Lw R U' R' U Lw' U2 R</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=F' L' U' L U L' U' L U F"></div>
+    <div class="text-nowrap">
+        <p class="alg">F' L' U' L U L' U' L U F</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R' F R' F' R2 U2 x' U' R U R'"></div>
+    <div class="text-nowrap">
+        <p class="alg">R' F R' F' R2 U2 x' U' R U R'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R' F R F' U2 R2 y R' F' R F'"></div>
+    <div class="text-nowrap">
+        <p class="alg">R' F R F' U2 R2 y R' F' R F'</p>
+    </div>
+  </div>
+</div>
+
+          <h3 id="oll-l-small-fl">Small L (Front Left): &#9488;</h3>
+<div class="row">
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R U R' y R' F R U' R' F' R"></div>
+    <div class="text-nowrap">
+        <p class="alg">R U R' y R' F R U' R' F' R</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=L' B' L U' R' U R L' B L"></div>
+    <div class="text-nowrap">
+        <p class="alg">L' B' L U' R' U R L' B L</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=U2 r R2' U' R U' R' U2 R U' M"></div>
+    <div class="text-nowrap">
+        <p class="alg">U2 r R2' U' R U' R' U2 R U' M</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=x' U' R U' R2' F x R U R' U' R B2"></div>
+    <div class="text-nowrap">
+        <p class="alg">x' U' R U' R2' F x (R U R' U') R B2</p>
+    </div>
+  </div>
+</div>
+
+          <h3 id="oll-l-small-fr">Small L (Front Right): &#9484;</h3>
+<div class="row">
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=L U' y' R' U2' R' U R U' R U2 R d' L'"></div>
+    <div class="text-nowrap">
+        <p class="alg">L U' y' R' U2' R' U R U' R U2 R d' L'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=U2 Lw' L2 U L' U L U2 L' U M"></div>
+    <div class="text-nowrap">
+        <p class="alg">U2 Lw' L2 U L' U L U2 L' U M</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R2' U R' B' R U' R2' U Lw U Lw'"></div>
+    <div class="text-nowrap">
+        <p class="alg">R2' U R' B' R U' R2' U Lw U Lw'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=r' U2 R U R' U r"></div>
+    <div class="text-nowrap">
+        <p class="alg">r' U2 (R U R' U) r</p>
+    </div>
+  </div>
+</div>
+
+
+        <h2 id="oll-c">C shapes</h2>
+<div class="row">
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R U x' R U' R' U x U' R'"></div>
+    <div class="text-nowrap">
+        <p class="alg">R U x' R U' R' U x U' R'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R U R' U' x D' R' U R E'"></div>
+    <div class="text-nowrap">
+        <p class="alg">(R U R' U') x D' R' U R E'</p>
+    </div>
+  </div>
+</div>
+
+        <h2 id="oll-l">L shapes</h2>
+<div class="row">
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R' F R U R' F' R y L U' L'"></div>
+    <div class="text-nowrap">
+        <p class="alg">R' F R U R' F' R y L U' L'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=L F' L' U' L F L' y' R' U R"></div>
+    <div class="text-nowrap">
+        <p class="alg">L F' L' U' L F L' y' R' U R</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=L' B' L R' U' R U L' B L"></div>
+    <div class="text-nowrap">
+        <p class="alg">L' B' L R' U' R U L' B L</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R B R' L U L' U' R B' R'"></div>
+    <div class="text-nowrap">
+        <p class="alg">R B R' L U L' U' R B' R'</p>
+    </div>
+  </div>
+</div>
+
+        <h2 id="oll-p">P shapes</h2>
+<div class="row">
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=F U R U' R' F'"></div>
+    <div class="text-nowrap">
+        <p class="alg">F U R U' R' F'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R' d' L d R U' R' F' R"></div>
+    <div class="text-nowrap">
+        <p class="alg">R' d' L d R U' R' F' R</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=L d R' d' L' U L F L'"></div>
+    <div class="text-nowrap">
+        <p class="alg">L d R' d' L' U L F L'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=F' U' L' U L F"></div>
+    <div class="text-nowrap">
+        <p class="alg">F' U' L' U L F</p>
+    </div>
+  </div>
+</div>
+
+        <h2 id="oll-t">T shapes</h2>
+<div class="row">
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=F R U R' U' F'"></div>
+    <div class="text-nowrap">
+        <p class="alg">F (R U R' U') F'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R U R' U' R' F R F'"></div>
+    <div class="text-nowrap">
+        <p class="alg">(R U R' U') R' F R F'</p>
+    </div>
+  </div>
+</div>
+
+        <h2 id="oll-w">W shapes</h2>
+<div class="row">
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=L U L' U L U' L' U' y2' R' F R F'"></div>
+    <div class="text-nowrap">
+        <p class="alg">L U L' U L U' L' U' y2' R' F R F'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R' U' R U' R' U R U y F R' F' R"></div>
+    <div class="text-nowrap">
+        <p class="alg">R' U' R U' R' U R U y F R' F' R</p>
+    </div>
+  </div>
+</div>
+
+        <h2 id="oll-z">Z shapes</h2>
+<div class="row">
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=R' F R U R' U' y L' d R"></div>
+    <div class="text-nowrap">
+        <p class="alg">R' F (R U R' U') y L' d R</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=OLL|alg=L F' L' U' L U y' R d' L'"></div>
+    <div class="text-nowrap">
+        <p class="alg">L F' L' U' L U y' R d' L'</p>
     </div>
   </div>
 </div>
