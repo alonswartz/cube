@@ -1,4 +1,4 @@
-<div class="row justify-content-md-center">
+<div class="row">
   <div class="col-md-5 col-sm-6">
     <div class="roofpig" data-config="base=F2LB|setupmoves=y'|alg=R U2 R' U R' U' R"></div>
     <div class="text-nowrap">
@@ -12,8 +12,6 @@
         <p class="alg">y U' (L' U L) (R U' R')</p>
     </div>
   </div>
-</div>
-<div class="row justify-content-md-center">
   <div class="col-md-5 col-sm-6">
     <div class="roofpig" data-config="base=F2LB|setupmoves=y'|alg=y U L' U' L y L' U' L"></div>
     <div class="text-nowrap">
@@ -29,8 +27,6 @@
         <p class="alg">y L' (R U' R') L</p>
     </div>
   </div>
-</div>
-<div class="row justify-content-md-center">
   <div class="col-md-5 col-sm-6">
     <div class="roofpig" data-config="base=F2LB|setupmoves=y'|alg=U R U R2' U2 R"></div>
     <div class="text-nowrap">

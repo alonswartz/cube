@@ -1,4 +1,4 @@
-<div class="row justify-content-md-center">
+<div class="row">
   <div class="col-md-5 col-sm-6">
     <div class="roofpig" data-config="base=F2LB|alg=R2 U' R2' U R2"></div>
     <div class="text-nowrap">
@@ -11,8 +11,6 @@
         <p class="alg">y R' u' R u R</p>
     </div>
   </div>
-</div>
-<div class="row justify-content-md-center">
   <div class="col-md-5 col-sm-6">
     <div class="roofpig" data-config="base=F2LB|alg=y L2' U L2 U' L2'"></div>
     <div class="text-nowrap">
