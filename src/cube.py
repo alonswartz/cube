@@ -11,7 +11,6 @@ Commands:
 import os
 import sys
 import getopt
-from itertools import izip
 
 import bottle
 
@@ -33,15 +32,6 @@ class Cases:
     def __init__(self, algsfile, default_config):
         self.cases = []
         self.parse_algs(algsfile, default_config)
-
-    @staticmethod
-    def _chunkwise(t, size):
-        it = iter(t)
-        return izip(*[it]*size)
-
-    @property
-    def grouped_cases(self):
-        return self._chunkwise(self.cases, 2)
 
     def parse_algs(self, algsfile, default_config):
         case = Case(default_config)
@@ -69,7 +59,7 @@ def render_cases(algsfile):
     else:
         default_config = ""
 
-    cases = Cases(algsfile, default_config).grouped_cases
+    cases = Cases(algsfile, default_config).cases
     return bottle.template('partials/cases', {'cases': cases})
 
 def usage(e=None):
