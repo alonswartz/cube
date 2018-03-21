@@ -57,14 +57,20 @@ class Cases:
                 self.cases.append(case)
                 case = Case(default_config)
 
+
 def render_page(name):
     return bottle.template(name, {})
 
 def render_cases(algsfile):
     if os.path.basename(algsfile).startswith('f2l-basic'):
         default_config = "base=F2L";
-        cases = Cases(algsfile, default_config).grouped_cases
-        return bottle.template('partials/cases', {'cases': cases})
+    elif os.path.basename(algsfile).startswith('f2l-advanced'):
+        default_config = "base=F2LB";
+    else:
+        default_config = ""
+
+    cases = Cases(algsfile, default_config).grouped_cases
+    return bottle.template('partials/cases', {'cases': cases})
 
 def usage(e=None):
     if e:

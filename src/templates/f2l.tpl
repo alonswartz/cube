@@ -19,6 +19,10 @@
           <li class="nav-item"><a class="nav-link nav-h3" href="#one-piece-correct-slot-edge">Edge in the slot</a></li>
           <li class="nav-item"><a class="nav-link nav-h3" href="#one-piece-correct-slot-corner">Corner in the slot</a></li>
           <li class="nav-item"><a class="nav-link nav-h2" href="#both-pieces-correct-slot">Both pieces correct slot</a></li>
+          <br/>
+          <li class="nav-item"><a class="nav-link nav-h1" href="#advanced-f2l">Advanced F2L</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#advanced-edge-in-wrong-slot">Edge in wrong slot</a></li>
+          <li class="nav-item"><a class="nav-link nav-h3" href="#advanced-white-sticker-faces-up">White sticker up</a></li>
         </ul>
       </nav>
     </div>
@@ -45,6 +49,15 @@
 
         <h2 id="both-pieces-correct-slot">Both pieces in the correct slot</h2>
         % include('algs/f2l-basic-both-pieces-correct-slot.tpl')
+
+      <br/><br/>
+      <h1 id="advanced-f2l">Advanced F2L</h1>
+        <p class="bd-lead">36 advanced cases. One piece in the wrong slot.</p>
+
+        <h2 id="advanced-edge-in-wrong-slot">Edge is in the wrong slot</h2>
+          <h3 id="advanced-white-sticker-faces-up">White sticker faces up</h3>
+          % include('algs/f2l-advanced-edge-wrong-white-up.tpl')
+
     </main>
 
     % include('partials/keyboard-shortcuts.tpl')

@@ -28,6 +28,7 @@
 <script src="{{ media or 'media' }}/js/roofpig_and_three.min.js"></script>
 <script>
   ROOFPIG_CONF_F2L = "solved=U*|hover=none|colored=U-|flags=canvas";
+  ROOFPIG_CONF_F2LB = "solved=U* RBD RBm LBD LBm FLD FLm|hover=none|flags=canvas";
 </script>
 </body>
 </html>

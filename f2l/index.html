@@ -40,6 +40,10 @@
           <li class="nav-item"><a class="nav-link nav-h3" href="#one-piece-correct-slot-edge">Edge in the slot</a></li>
           <li class="nav-item"><a class="nav-link nav-h3" href="#one-piece-correct-slot-corner">Corner in the slot</a></li>
           <li class="nav-item"><a class="nav-link nav-h2" href="#both-pieces-correct-slot">Both pieces correct slot</a></li>
+          <br/>
+          <li class="nav-item"><a class="nav-link nav-h1" href="#advanced-f2l">Advanced F2L</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#advanced-edge-in-wrong-slot">Edge in wrong slot</a></li>
+          <li class="nav-item"><a class="nav-link nav-h3" href="#advanced-white-sticker-faces-up">White sticker up</a></li>
         </ul>
       </nav>
     </div>
@@ -413,6 +417,70 @@
   </div>
 </div>
 
+
+      <br/><br/>
+      <h1 id="advanced-f2l">Advanced F2L</h1>
+        <p class="bd-lead">36 advanced cases. One piece in the wrong slot.</p>
+
+        <h2 id="advanced-edge-in-wrong-slot">Edge is in the wrong slot</h2>
+          <h3 id="advanced-white-sticker-faces-up">White sticker faces up</h3>
+<div class="row justify-content-md-center">
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=F2LB|alg=U' R' U R2 U' R'"></div>
+    <div class="text-nowrap">
+        <p class="alg">U' R' U R2 U' R'</p>
+        <p class="alg">y U' (R U' R') U2 (L' U L)</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=F2LB|alg=U R' U R U' R' U' R y L' U L"></div>
+    <div class="text-nowrap">
+        <p class="alg">U (R' U R U' R' U' R) y (L' U L)</p>
+        <p class="alg">U2 (R' U R U' R' U R) y (L' U L)</p>
+        <p class="alg">y R' F R2 U' R' U2 F'</p>
+        <p class="alg">y2 U2 (L F' L' F) (L U L')</p>
+    </div>
+  </div>
+</div>
+<div class="row justify-content-md-center">
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=F2LB|alg=U L' U L U2 R U' R'"></div>
+    <div class="text-nowrap">
+        <p class="alg">U (L' U L) U2 (R U' R')</p>
+        <p class="alg">y U L U' L2 U L</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=F2LB|alg=L F' L2 U L U2 F"></div>
+    <div class="text-nowrap">
+        <p class="alg">L F' L2 U L U2 F</p>
+        <p class="alg">y' U2 (R' F R F') (R' U' R)</p>
+        <p class="alg">y U' L U' L' U L U L' y' R U' R'</p>
+        <p class="alg">y U2 L U' L' U L U' L' y' R U' R'</p>
+    </div>
+  </div>
+</div>
+<div class="row justify-content-md-center">
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=F2LB|setupmoves=y y|alg=U2 L2 u L2 u' L2"></div>
+    <div class="text-nowrap">
+        <p class="alg">U2 L2 u L2 u' L2</p>
+        <p class="alg">(U R U' R')2 (L U2 L')</p>
+        <p class="alg">y U2 R2 u' R2 u R2</p>
+        <p class="alg">y (U' L' U L)2 (R' U2 R)</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=F2LB|setupmoves=y y|alg=L F' U F L'"></div>
+    <div class="text-nowrap">
+        <p class="alg">L F' U F L'</p>
+        <p class="alg">y R' F U' F' R</p>
+        <p class="alg">y2 R u R' U R u' R'</p>
+    </div>
+  </div>
+</div>
+
+
     </main>
 
 <div id="keyboard-shortcuts" class="d-none d-xl-block col-xl-2 bd-toc">
@@ -445,6 +513,7 @@
 <script src="../media/js/roofpig_and_three.min.js"></script>
 <script>
   ROOFPIG_CONF_F2L = "solved=U*|hover=none|colored=U-|flags=canvas";
+  ROOFPIG_CONF_F2LB = "solved=U* RBD RBm LBD LBm FLD FLm|hover=none|flags=canvas";
 </script>
 </body>
 </html>
