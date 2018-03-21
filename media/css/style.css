@@ -6,12 +6,29 @@ body {
   border:none;
   color: rgba(0,0,0,.65);
 }
+#bd-docs-nav {
+  max-height: 100vh;
+}
 #bd-docs-nav .nav-pills .nav-link {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
 }
-.bd-content h3 {
+.bd-sidebar .nav>li>.nav-h1 {
+  font-size: 1rem;
+}
+.bd-sidebar .nav>li>.nav-h2 {
+  padding-left: 1.5rem;
+}
+.bd-sidebar .nav>li>.nav-h3 {
+  padding-left: 2.5rem;
+}
+.bd-sidebar .nav>li>.nav-h4 {
+  padding-left: 3.5rem;
+}
+.bd-content h2,
+.bd-content h3,
+.bd-content h4 {
   margin-bottom: 1.5rem;
 }
 .roofpig { 
