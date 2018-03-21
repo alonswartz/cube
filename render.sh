@@ -25,6 +25,7 @@ render() {
 case "$1" in
     f2l) render f2l ;;
     oll) render oll ;;
-    *)   render f2l; render oll; ;;
+    pll) render pll ;;
+    *)   render f2l; render oll; render pll;;
 esac
 

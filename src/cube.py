@@ -20,6 +20,7 @@ bottle.TEMPLATE_PATH.extend([os.path.join(SRC, 'templates')])
 
 class Case:
     def __init__(self, default_config):
+        self.name = ""
         self.algs = []
         self.config = default_config
 
@@ -42,6 +43,10 @@ class Cases:
                     case.config = line.lstrip('config: ')
                     continue
 
+                elif line.startswith('name: '):
+                    case.name = line.lstrip('name: ')
+                    continue
+
                 case.algs.append(line)
             else:
                 self.cases.append(case)
@@ -58,6 +63,8 @@ def render_cases(algsfile):
         default_config = "base=F2LB";
     elif os.path.basename(algsfile).startswith('oll'):
         default_config = "base=OLL";
+    elif os.path.basename(algsfile).startswith('pll'):
+        default_config = "base=PLL";
     else:
         default_config = ""
 

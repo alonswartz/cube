@@ -43,3 +43,7 @@ body {
 .alg {
   margin-bottom: 0px;
 }
+.name {
+  margin-bottom: 0px;
+  font-weight: bold;
+}

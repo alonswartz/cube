@@ -17,6 +17,7 @@
       <li class="nav-item"><a class="nav-link {{ 'active' if name == 'home' else '' }}" href="{{ root }}/">Home</a></li>
       <li class="nav-item"><a class="nav-link {{ 'active' if name == 'f2l' else '' }}" href="{{ root }}/f2l/">F2L</a></li>
       <li class="nav-item"><a class="nav-link {{ 'active' if name == 'oll' else '' }}" href="{{ root }}/oll/">OLL</a></li>
+      <li class="nav-item"><a class="nav-link {{ 'active' if name == 'pll' else '' }}" href="{{ root }}/pll/">PLL</a></li>
     </ul>
   </div>
 </header>
@@ -31,6 +32,7 @@
   ROOFPIG_CONF_F2L = "solved=U*|hover=none|colored=U-|flags=canvas";
   ROOFPIG_CONF_F2LB = "solved=U* RBD RBm LBD LBm FLD FLm|hover=none|flags=canvas";
   ROOFPIG_CONF_OLL = "solved=U-|hover=near|colored=u|flags=canvas";
+  ROOFPIG_CONF_PLL = "solved=U-|hover=near|colored=U*|flags=canvas";
 </script>
 </body>
 </html>

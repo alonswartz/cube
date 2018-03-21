@@ -1,0 +1,21 @@
+name: Ua
+R U' R U R U R U' R' U' R2
+
+name: Ub
+R2 U (R U R' U') R' U' R' U R'
+
+name: Aa
+x R' U R' D2 R U' R' D2 R2
+
+name: Ab
+x R2 D2 R U R' D2 R U' R
+
+name: H
+(M2' U' M2') U2' (M2' U' M2')
+
+name: Z
+R' U' R U' R U R U' R' U R U R2 U' R' U2
+
+name: E
+x' R U' R' D R U R' D' R U R' D R U' R' D'
+

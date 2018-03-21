@@ -3,6 +3,9 @@
   <div class="col-md-5 col-sm-6">
     <div class="roofpig" data-config="{{!c.config}}|alg={{!c.main_alg}}"></div>
     <div class="text-nowrap">
+      % if c.name:
+        <p class="name">{{!c.name}}</p>
+      % end
       % for alg in c.algs:
         <p class="alg">{{!alg}}</p>
       % end
