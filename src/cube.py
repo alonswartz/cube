@@ -49,7 +49,7 @@ class Cases:
 
 
 def render_page(name):
-    return bottle.template(name, {})
+    return bottle.template(name, {'name': name})
 
 def render_cases(algsfile):
     if os.path.basename(algsfile).startswith('f2l-basic'):

@@ -14,8 +14,8 @@
 <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
   <div class="navbar-nav-scroll">
     <ul class="navbar-nav bd-navbar-nav flex-row">
-      <li class="nav-item"><a class="nav-link" href="/cube">Home</a></li>
-      <li class="nav-item"><a class="nav-link active" href="/cube/f2l">F2L</a></li>
+      <li class="nav-item"><a class="nav-link {{ 'active' if name == 'home' else '' }}" href="/cube">Home</a></li>
+      <li class="nav-item"><a class="nav-link {{ 'active' if name == 'f2l' else '' }}" href="/cube/f2l">F2L</a></li>
     </ul>
   </div>
 </header>
