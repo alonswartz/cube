@@ -1,0 +1,12 @@
+R' F R2 U' R2' F' R
+(L F' L' F) (R U' R')
+
+y (R' F R F') (L' U L)
+y L F' L2' U L2 F L'
+
+config: base=F2LB|setupmoves=y y
+R (L U2 L') R'
+
+config: base=F2LB|setupmoves=y y
+y L' (R' U2 R) L
+

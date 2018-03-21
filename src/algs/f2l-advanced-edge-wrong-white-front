@@ -1,0 +1,23 @@
+U2 R U R2' U' R2 U R'
+y U (R U R') (L' U L)
+
+R' U2 R F' U' F
+y F' U2 F L' U' L
+y' U2 L' U L y R U2 R'
+
+y L U L2' U' L
+
+R' u' R' u R
+(L' U' L) U y (L' U' L)
+y (L U' L') U y' (R U' R')
+y' (R U' R') (r' U' R U M')
+
+config: base=F2LB|setupmoves=y y
+U' R U' R' L U' L'
+y U' (L' U' L) (R' U' R)
+y U (L' U2 L) U (R' U' R)
+
+config: base=F2LB|setupmoves=y y
+U2 R B' U' B R'
+y U2 (L F' L' F) (R' U' R)
+

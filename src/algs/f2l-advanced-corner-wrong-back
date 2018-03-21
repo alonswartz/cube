@@ -1,0 +1,22 @@
+config: base=F2LB|setupmoves=y y
+U' (R' F R F') U2 (L U L')
+y U' (L' U L) y' (L U2 L')
+
+config: base=F2LB|setupmoves=y y
+U (R U' R') y (R' U2 R)
+y U (L F' L' F) U2 (R' U' R)
+
+config: base=F2LB|setupmoves=y y
+(R U' R') (L U2 L')
+
+config: base=F2LB|setupmoves=y y
+(R' F R F') (L U2 L')
+y (L' U' L) U' (R' U' R)
+
+config: base=F2LB|setupmoves=y y
+y (L F' L' F) (R' U2 R)
+(R U' R') U (L U L') **
+
+config: base=F2LB|setupmoves=y y
+y (L' U L) (R' U2 R)
+

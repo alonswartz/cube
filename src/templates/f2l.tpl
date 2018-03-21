@@ -23,6 +23,15 @@
           <li class="nav-item"><a class="nav-link nav-h1" href="#advanced-f2l">Advanced F2L</a></li>
           <li class="nav-item"><a class="nav-link nav-h2" href="#advanced-edge-in-wrong-slot">Edge in wrong slot</a></li>
           <li class="nav-item"><a class="nav-link nav-h3" href="#advanced-white-sticker-faces-up">White sticker up</a></li>
+          <li class="nav-item"><a class="nav-link nav-h3" href="#advanced-white-sticker-faces-side">White sticker side</a></li>
+          <li class="nav-item"><a class="nav-link nav-h3" href="#advanced-white-sticker-faces-front">White sticker front</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#advanced-corner-in-wrong-slot">Corner in wrong slot</a></li>
+          <li class="nav-item"><a class="nav-link nav-h3" href="#advanced-corner-wrong-right">Corner in right slot</a></li>
+          <li class="nav-item"><a class="nav-link nav-h3" href="#advanced-corner-wrong-left">Corner in left slot</a></li>
+          <li class="nav-item"><a class="nav-link nav-h3" href="#advanced-corner-wrong-back">Corner in back slot</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#advanced-bonus">Bonus cases</a></li>
+          <li class="nav-item"><a class="nav-link nav-h3" href="#advanced-corner-solved">Corner is solved</a></li>
+          <li class="nav-item"><a class="nav-link nav-h3" href="#advanced-pair-wrong-slot">Pair wrong slot</a></li>
         </ul>
       </nav>
     </div>
@@ -57,6 +66,24 @@
         <h2 id="advanced-edge-in-wrong-slot">Edge is in the wrong slot</h2>
           <h3 id="advanced-white-sticker-faces-up">White sticker faces up</h3>
           % include('algs/f2l-advanced-edge-wrong-white-up.tpl')
+          <h3 id="advanced-white-sticker-faces-side">White sticker faces side</h3>
+          % include('algs/f2l-advanced-edge-wrong-white-side.tpl')
+          <h3 id="advanced-white-sticker-faces-front">White sticker faces front</h3>
+          % include('algs/f2l-advanced-edge-wrong-white-front.tpl')
+
+        <h2 id="advanced-corner-in-wrong-slot">Corner is in the wrong slot</h2>
+          <h3 id="advanced-corner-wrong-right">Corner in the right slot</h3>
+          % include('algs/f2l-advanced-corner-wrong-right.tpl')
+          <h3 id="advanced-corner-wrong-left">Corner in the left slot</h3>
+          % include('algs/f2l-advanced-corner-wrong-left.tpl')
+          <h3 id="advanced-corner-wrong-back">Corner in the back slot</h3>
+          % include('algs/f2l-advanced-corner-wrong-back.tpl')
+
+        <h2 id="advanced-bonus">Bonus cases</h2>
+          <h3 id="advanced-corner-solved">Corner is solved</h3>
+          % include('algs/f2l-advanced-corner-solved.tpl')
+          <h3 id="advanced-pair-wrong-slot">Pair in wrong slot</h3>
+          % include('algs/f2l-advanced-pair-wrong-slot.tpl')
 
     </main>
 
