@@ -13,6 +13,11 @@ ALGS_DST="src/templates/algs"
 for f in $(ls $ALGS_SRC/f2l-*); do
     $CUBE render_cases $f > $ALGS_DST/$(basename $f).tpl
 done
-
 $CUBE render_page f2l > f2l/index.html
+
+
+for f in $(ls $ALGS_SRC/oll-*); do
+    $CUBE render_cases $f > $ALGS_DST/$(basename $f).tpl
+done
+$CUBE render_page oll > oll/index.html
 

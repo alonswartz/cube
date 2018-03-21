@@ -1,0 +1,8 @@
+config: base=OLL|setupmoves=F R U R' U' F' F R U R' U' F'|flags=startsolved
+F (R U R' U') F'
+
+config: base=OLL|setupmoves=f R U R' U' f' f R U R' U' f'|flags=startsolved
+f (R U R' U') f'
+
+F (R U R' U') F' f (R U R' U') f'
+

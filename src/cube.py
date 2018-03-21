@@ -56,6 +56,8 @@ def render_cases(algsfile):
         default_config = "base=F2L";
     elif os.path.basename(algsfile).startswith('f2l-advanced'):
         default_config = "base=F2LB";
+    elif os.path.basename(algsfile).startswith('oll'):
+        default_config = "base=OLL";
     else:
         default_config = ""
 
