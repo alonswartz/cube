@@ -1,31 +1,31 @@
 <div class="row">
-  <div class="col-md-5 col-sm-6">
+  <div class="col-md-6 col-sm-6">
     <div class="roofpig" data-config="base=F2L|alg=R U R' U' R U R'"></div>
     <div class="text-nowrap">
         <p class="alg">(R U R') U' (R U R')</p>
         <p class="alg">y (L F' L' F)2</p>
     </div>
   </div>
-  <div class="col-md-5 col-sm-6">
+  <div class="col-md-6 col-sm-6">
     <div class="roofpig" data-config="base=F2L|alg=y L' U' L U L' U' L"></div>
     <div class="text-nowrap">
         <p class="alg">y (L' U' L) U (L' U' L)</p>
         <p class="alg">(R' F R F')2</p>
     </div>
   </div>
-  <div class="col-md-5 col-sm-6">
+  <div class="col-md-6 col-sm-6">
     <div class="roofpig" data-config="base=F2L|alg=R U' R' U R U' R'"></div>
     <div class="text-nowrap">
         <p class="alg">(R U' R') U (R U' R')</p>
     </div>
   </div>
-  <div class="col-md-5 col-sm-6">
+  <div class="col-md-6 col-sm-6">
     <div class="roofpig" data-config="base=F2L|alg=y L' U L U' L' U L"></div>
     <div class="text-nowrap">
         <p class="alg">y (L' U L) U' (L' U L)</p>
     </div>
   </div>
-  <div class="col-md-5 col-sm-6">
+  <div class="col-md-6 col-sm-6">
     <div class="roofpig" data-config="base=F2L|alg=U' R' F R F' R U R'"></div>
     <div class="text-nowrap">
         <p class="alg">U' (R' F R F') (R U R')</p>
@@ -35,7 +35,7 @@
         <p class="alg">D (U R U' R') D' *</p>
     </div>
   </div>
-  <div class="col-md-5 col-sm-6">
+  <div class="col-md-6 col-sm-6">
     <div class="roofpig" data-config="base=F2L|alg=U R U' R' U' y L' U L"></div>
     <div class="text-nowrap">
         <p class="alg">U (R U' R' U') y (L' U L)</p>

@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="col-md-5 col-sm-6">
+  <div class="col-md-6 col-sm-6">
     <div class="roofpig" data-config="base=F2L|alg=U R U R' U2 R U R'"></div>
     <div class="text-nowrap">
         <p class="alg">U (R U R') U2 (R U R')</p>
@@ -9,7 +9,7 @@
         <p class="alg">y D (U' R U R') D' *</p>
     </div>
   </div>
-  <div class="col-md-5 col-sm-6">
+  <div class="col-md-6 col-sm-6">
     <div class="roofpig" data-config="base=F2L|alg=U F' U' F U' R U R'"></div>
     <div class="text-nowrap">
         <p class="alg">U (F' U' F) U' (R U R')</p>
@@ -18,7 +18,7 @@
         <p class="alg">y2 U2 (f' L' f) U (L U' L')</p>
     </div>
   </div>
-  <div class="col-md-5 col-sm-6">
+  <div class="col-md-6 col-sm-6">
     <div class="roofpig" data-config="base=F2L|alg=U' R U' R' U2 R U' R'"></div>
     <div class="text-nowrap">
         <p class="alg">U' R U' R' U2 R U' R'</p>
@@ -28,7 +28,7 @@
         <p class="alg">y D (R U' R') D' *</p>
     </div>
   </div>
-  <div class="col-md-5 col-sm-6">
+  <div class="col-md-6 col-sm-6">
     <div class="roofpig" data-config="base=F2L|alg=U' R U R' U y L' U' L"></div>
     <div class="text-nowrap">
         <p class="alg">U' (R U R') U y (L' U' L)</p>
@@ -38,13 +38,13 @@
         <p class="alg">y2 U' (L U L') U (f' L' f)</p>
     </div>
   </div>
-  <div class="col-md-5 col-sm-6">
+  <div class="col-md-6 col-sm-6">
     <div class="roofpig" data-config="base=F2L|alg=U R U' R' U R U' R' U R U' R'"></div>
     <div class="text-nowrap">
         <p class="alg">(U R U' R') (U R U' R') (U R U' R')</p>
     </div>
   </div>
-  <div class="col-md-5 col-sm-6">
+  <div class="col-md-6 col-sm-6">
     <div class="roofpig" data-config="base=F2L|alg=U' R' F R F' R U' R'"></div>
     <div class="text-nowrap">
         <p class="alg">U' (R' F R F') (R U' R')</p>

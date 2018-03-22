@@ -1,6 +1,6 @@
 <div class="row">
   % for c in cases:
-  <div class="col-md-5 col-sm-6">
+  <div class="col-md-6 col-sm-6">
     <div class="roofpig" data-config="{{!c.config}}|alg={{!c.main_alg}}"></div>
     <div class="text-nowrap">
       % if c.name:
