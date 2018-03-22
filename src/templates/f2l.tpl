@@ -13,8 +13,6 @@
           <li class="nav-item"><a class="nav-link nav-h2" href="#both-pieces-on-top">Both pieces on top</a></li>
           <li class="nav-item"><a class="nav-link nav-h3" href="#white-sticker-faces-up">White sticker up</a></li>
           <li class="nav-item"><a class="nav-link nav-h3" href="#white-sticker-faces-side-front">White sticker side/front</a></li>
-          <li class="nav-item"><a class="nav-link nav-h4" href="#white-sticker-faces-side-front-diff">U face stickers different</a></li>
-          <li class="nav-item"><a class="nav-link nav-h4" href="#white-sticker-faces-side-front-same">U face stickers the same</a></li>
           <li class="nav-item"><a class="nav-link nav-h2" href="#one-piece-in-correct-slot">One piece correct slot</a></li>
           <li class="nav-item"><a class="nav-link nav-h3" href="#one-piece-correct-slot-edge">Edge in the slot</a></li>
           <li class="nav-item"><a class="nav-link nav-h3" href="#one-piece-correct-slot-corner">Corner in the slot</a></li>
