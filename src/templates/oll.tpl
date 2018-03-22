@@ -46,48 +46,63 @@
       <h1 id="full-oll">Full OLL</h1>
 
         <h2 id="full-all-edges">All edges orientated</h2>
+        % include('partials/embed-hidden-youtube.tpl', text='fingertricks', vid='47JfJxU7EjM', start='3')
         % include('algs/oll-full-all-edges.tpl')
 
         <h2 id="full-all-corners">All corners orientated</h2>
+        % include('partials/embed-hidden-youtube.tpl', text='fingertricks', id='video-full-all-corners', vid='47JfJxU7EjM', start='75')
         % include('algs/oll-full-all-corners.tpl')
 
         <h2 id="full-t">T shapes</h2>
+        % include('partials/embed-hidden-youtube.tpl', text='fingertricks', id='video-full-t', vid='47JfJxU7EjM', start='95')
         % include('algs/oll-full-t.tpl')
 
         <h2 id="full-w">W shapes</h2>
+        % include('partials/embed-hidden-youtube.tpl', text='fingertricks', id='video-full-w', vid='47JfJxU7EjM', start='112')
         % include('algs/oll-full-w.tpl')
 
         <h2 id="full-square">Square shapes</h2>
+        % include('partials/embed-hidden-youtube.tpl', text='fingertricks', id='video-full-square', vid='47JfJxU7EjM', start='137')
         % include('algs/oll-full-w.tpl')
 
         <h2 id="full-p">P shapes</h2>
+        % include('partials/embed-hidden-youtube.tpl', text='fingertricks', id='video-full-p', vid='47JfJxU7EjM', start='156')
         % include('algs/oll-full-p.tpl')
 
         <h2 id="full-fish">Fish shapes</h2>
+        % include('partials/embed-hidden-youtube.tpl', text='fingertricks', id='video-full-fish', vid='47JfJxU7EjM', start='195')
         % include('algs/oll-full-fish.tpl')
 
         <h2 id="full-c">C shapes</h2>
+        % include('partials/embed-hidden-youtube.tpl', text='fingertricks', id='video-full-c', vid='47JfJxU7EjM', start='243')
         % include('algs/oll-full-c.tpl')
 
         <h2 id="full-lightning-small">Small lightning bolts</h2>
+        % include('partials/embed-hidden-youtube.tpl', text='fingertricks', id='video-full-lightning-small', vid='47JfJxU7EjM', start='267')
         % include('algs/oll-full-lightning-small.tpl')
 
         <h2 id="full-lightning-big">Big lightning bolts</h2>
+        % include('partials/embed-hidden-youtube.tpl', text='fingertricks', id='video-full-lightning-big', vid='47JfJxU7EjM', start='315')
         % include('algs/oll-full-lightning-big.tpl')
 
         <h2 id="full-l-small">Small L shapes</h2>
+        % include('partials/embed-hidden-youtube.tpl', text='fingertricks', id='video-full-l-small', vid='47JfJxU7EjM', start='338')
         % include('algs/oll-full-l-small.tpl')
 
         <h2 id="full-knight">Knight move shapes</h2>
+        % include('partials/embed-hidden-youtube.tpl', text='fingertricks', id='video-full-knight', vid='47JfJxU7EjM', start='407')
         % include('algs/oll-full-knight.tpl')
 
         <h2 id="full-line">Line shapes</h2>
+        % include('partials/embed-hidden-youtube.tpl', text='fingertricks', id='video-full-line', vid='47JfJxU7EjM', start='464')
         % include('algs/oll-full-line.tpl')
 
         <h2 id="full-awkward">Awkward shapes</h2>
+        % include('partials/embed-hidden-youtube.tpl', text='fingertricks', id='video-full-awkward', vid='47JfJxU7EjM', start='528')
         % include('algs/oll-full-awkward.tpl')
 
         <h2 id="full-no-edges">No edges oriented</h2>
+        % include('partials/embed-hidden-youtube.tpl', text='fingertricks', id='video-full-no-edges', vid='47JfJxU7EjM', start='581')
         % include('algs/oll-full-no-edges.tpl')
 
     </main>
