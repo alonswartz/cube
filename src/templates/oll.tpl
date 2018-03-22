@@ -14,21 +14,21 @@
           <li class="nav-item"><a class="nav-link nav-h2" href="#2look-corners">Orient corners</a></li>
           <br/>
           <li class="nav-item"><a class="nav-link nav-h1" href="#full-oll">Full OLL</a></li>
-          <li class="nav-item"><a class="nav-link nav-h2" href="#oll-dot">Dot</a></li>
-          <li class="nav-item"><a class="nav-link nav-h2" href="#oll-line">Line</a></li>
-          <li class="nav-item"><a class="nav-link nav-h2" href="#oll-cross">Cross</a></li>
-          <li class="nav-item"><a class="nav-link nav-h2" href="#oll-4corners">4 Corners</a></li>
-          <li class="nav-item"><a class="nav-link nav-h2" href="#oll-l-small">Small L</a></li>
-          <li class="nav-item"><a class="nav-link nav-h3" href="#oll-l-small-bl">Back Left: &#9496;</a></li>
-          <li class="nav-item"><a class="nav-link nav-h3" href="#oll-l-small-br">Back Right: &#9492;</a></li>
-          <li class="nav-item"><a class="nav-link nav-h3" href="#oll-l-small-fl">Front Left: &#9488;</a></li>
-          <li class="nav-item"><a class="nav-link nav-h3" href="#oll-l-small-fr">Front Right: &#9484;</a></li>
-          <li class="nav-item"><a class="nav-link nav-h2" href="#oll-c">C shapes</a></li>
-          <li class="nav-item"><a class="nav-link nav-h2" href="#oll-l">L shapes</a></li>
-          <li class="nav-item"><a class="nav-link nav-h2" href="#oll-p">P shapes</a></li>
-          <li class="nav-item"><a class="nav-link nav-h2" href="#oll-t">T shapes</a></li>
-          <li class="nav-item"><a class="nav-link nav-h2" href="#oll-w">W shapes</a></li>
-          <li class="nav-item"><a class="nav-link nav-h2" href="#oll-z">Z shapes</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#full-all-edges">All edges orientated</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#full-all-corners">All corners orientated</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#full-t">T shapes</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#full-w">W shapes</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#full-square">Square shapes</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#full-p">P shapes</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#full-fish">Fish shapes</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#full-c">C shapes</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#full-lightning-small">Small lightning bolts</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#full-lightning-big">Big lightning bolts</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#full-l-small">Small L shapes</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#full-knight">Knight move shapes</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#full-line">Line shapes</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#full-awkward">Awkward shapes</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#full-no-edges">No edges oriented</a></li>
         </ul>
       </nav>
     </div>
@@ -45,42 +45,50 @@
 
       <h1 id="full-oll">Full OLL</h1>
 
-        <div style="margin-bottom: 3rem;" class="alert alert-primary" role="alert">
-          Credit goes to <a target="_blank" href="https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/orient-the-last-layer-oll/">Ruwix</a>
-          for creating this algorithm set.
-        </div>
+        <h2 id="full-all-edges">All edges orientated</h2>
+        % include('algs/oll-full-all-edges.tpl')
 
-        <h2 id="oll-dot">Dot</h2>
-        % include('algs/oll-dot.tpl')
-        <h2 id="oll-line">Line</h2>
-        % include('algs/oll-line.tpl')
-        <h2 id="oll-cross">Cross</h2>
-        % include('algs/oll-cross.tpl')
-        <h2 id="oll-4corners">4 Corners</h2>
-        % include('algs/oll-4corners.tpl')
-        <h2 id="oll-l-small">Small L</h2>
+        <h2 id="full-all-corners">All corners orientated</h2>
+        % include('algs/oll-full-all-corners.tpl')
 
-          <h3 id="oll-l-small-bl">Small L (Back Left): &#9496;</h3>
-          % include('algs/oll-l-small-bl.tpl')
-          <h3 id="oll-l-small-br">Small L (Back Right): &#9492;</h3>
-          % include('algs/oll-l-small-br.tpl')
-          <h3 id="oll-l-small-fl">Small L (Front Left): &#9488;</h3>
-          % include('algs/oll-l-small-fl.tpl')
-          <h3 id="oll-l-small-fr">Small L (Front Right): &#9484;</h3>
-          % include('algs/oll-l-small-fr.tpl')
+        <h2 id="full-t">T shapes</h2>
+        % include('algs/oll-full-t.tpl')
 
-        <h2 id="oll-c">C shapes</h2>
-        % include('algs/oll-c.tpl')
-        <h2 id="oll-l">L shapes</h2>
-        % include('algs/oll-l.tpl')
-        <h2 id="oll-p">P shapes</h2>
-        % include('algs/oll-p.tpl')
-        <h2 id="oll-t">T shapes</h2>
-        % include('algs/oll-t.tpl')
-        <h2 id="oll-w">W shapes</h2>
-        % include('algs/oll-w.tpl')
-        <h2 id="oll-z">Z shapes</h2>
-        % include('algs/oll-z.tpl')
+        <h2 id="full-w">W shapes</h2>
+        % include('algs/oll-full-w.tpl')
+
+        <h2 id="full-square">Square shapes</h2>
+        % include('algs/oll-full-w.tpl')
+
+        <h2 id="full-p">P shapes</h2>
+        % include('algs/oll-full-p.tpl')
+
+        <h2 id="full-fish">Fish shapes</h2>
+        % include('algs/oll-full-fish.tpl')
+
+        <h2 id="full-c">C shapes</h2>
+        % include('algs/oll-full-c.tpl')
+
+        <h2 id="full-lightning-small">Small lightning bolts</h2>
+        % include('algs/oll-full-lightning-small.tpl')
+
+        <h2 id="full-lightning-big">Big lightning bolts</h2>
+        % include('algs/oll-full-lightning-big.tpl')
+
+        <h2 id="full-l-small">Small L shapes</h2>
+        % include('algs/oll-full-l-small.tpl')
+
+        <h2 id="full-knight">Knight move shapes</h2>
+        % include('algs/oll-full-knight.tpl')
+
+        <h2 id="full-line">Line shapes</h2>
+        % include('algs/oll-full-line.tpl')
+
+        <h2 id="full-awkward">Awkward shapes</h2>
+        % include('algs/oll-full-awkward.tpl')
+
+        <h2 id="full-no-edges">No edges oriented</h2>
+        % include('algs/oll-full-no-edges.tpl')
 
     </main>
 
