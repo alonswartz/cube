@@ -1,0 +1,12 @@
+name: 51
+F (U R U' R') (U R U' R') F'
+
+name: 52
+(R U R' U) R U' (B U' B') R'
+
+name: 55
+R' F R U R U' R2 F' (R2 U' R' U R U R')
+
+name: 56
+r' U' r (U' R' U R) (U' R' U R) r' U r
+

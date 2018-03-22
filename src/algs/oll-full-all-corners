@@ -1,0 +1,6 @@
+name: 28
+(r U R' U') r' R (U R U' R')
+
+name: 57
+(R U R' U') M' (U R U' r')
+

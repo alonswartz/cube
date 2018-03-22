@@ -1,0 +1,21 @@
+name: 21
+(R U2 R' U') (R U R' U') (R U' R')
+
+name: 22
+R U2 (R2 U' R2 U' R2) U2 R
+
+name: 23
+R2 D' (R U2 R') D (R U2 R)
+
+name: 24
+(r U R' U') (r' F R F')
+
+name: 25
+F' (r U R' U') r' F R
+
+name: 26
+R U2 R' U' R U' R'
+
+name: 27
+R U R' U R U2 R'
+

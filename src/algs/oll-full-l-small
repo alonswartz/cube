@@ -1,0 +1,18 @@
+name: 47
+R' U' (R' F R F' R' F R F') U R
+
+name: 48
+F (R U R' U' R U R' U') F'
+
+name: 49
+r U' (r2 U r2 U r2) U' r
+
+name: 50
+r' U (r2 U' r2' U' r2) U r'
+
+name: 53
+(Lw' U2 L U) (L' U' L U) L' U Lw
+
+name: 54
+(r U2 R' U') (R U R' U') R U' r'
+

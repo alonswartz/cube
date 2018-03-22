@@ -1,0 +1,6 @@
+name: 33
+(R U R' U') (R' F R F')
+
+name: 45
+F (R U R' U') F'
+

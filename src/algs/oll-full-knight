@@ -1,0 +1,12 @@
+name: 13
+F (U R U' R2) F' R (U R U' R')
+
+name: 14
+R' F R U R' F' R (F U' F')
+
+name: 15
+(Lw' U' Lw) (L' U' L U) (Lw' U Lw)
+
+name: 16
+(r U r') (R U R' U') (r U' r')
+

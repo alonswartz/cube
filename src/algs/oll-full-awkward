@@ -1,0 +1,12 @@
+name: 29
+(R U R' U') (R U' R') (F' U' F) (R U R')
+
+name: 30
+F (R' F R2 U' R' U') (R U R') F2
+
+name: 41
+(R U R' U R U2' R') (F R U R' U' F')
+
+name: 42
+(R' U' R U' R' U2 R) (F R U R' U' F')
+

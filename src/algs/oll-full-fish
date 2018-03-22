@@ -1,0 +1,12 @@
+name: 9
+(R U R' U') R' F (R2 U R' U') F'
+
+name: 10
+(R U R' U) (R' F R F') (R U2 R')
+
+name: 35
+R U2 (R2' F R F') R U2 R'
+
+name: 37
+(F R' F' R) (U R U' R')
+
