@@ -1,0 +1,12 @@
+name: Y
+F (R U' R' U') (R U R' F') (R U R' U') (R' F R F')
+
+name: V
+R' U R' U' y R' F' R2 U' R' U R' F R F
+
+name: Na
+R U R' U (R U R' F' R U R' U' R' F R2 U' R') U2 R U' R'
+
+name: Nb
+R' (U R U' R') (F' U' F) (R U R' F) R' F' R U' R
+

@@ -33,6 +33,13 @@
       <nav class="collapse bd-links" id="bd-docs-nav">
         <ul class="nav nav-pills flex-column">
           <li class="nav-item"><a class="nav-link nav-h1" href="#2look-pll">2-Look PLL</a></li>
+          <br/>
+          <li class="nav-item"><a class="nav-link nav-h1" href="#full-pll">Full PLL</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#full-edge-only">Edge only</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#full-corner-only">Corner only</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#full-adjacent-corner-swap">Adjacent corner swap</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#full-diagonal-corner-swap">Diagonal corner swap</a></li>
+          <li class="nav-item"><a class="nav-link nav-h2" href="#full-g">G permutations</a></li>
         </ul>
       </nav>
     </div>
@@ -88,6 +95,245 @@
     <div class="text-nowrap">
         <p class="name">E</p>
         <p class="alg">x' R U' R' D R U R' D' R U R' D R U' R' D'</p>
+    </div>
+  </div>
+</div>
+
+
+      <h1 id="full-pll">Full PLL</h1>
+
+        <h2 id="full-edge-only">Edge only</h2>
+<p style="float:right;">
+  <a class="btn btn-primary" data-toggle="collapse" href="#fingertricks-9" role="button" aria-expanded="false" aria-controls="fingertricks-9">
+    fingertricks
+  </a>
+</p>
+<div class="collapse" id="fingertricks-9">
+  <p>
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JvqGU0UZPcE?rel=0&amp;showinfo=0&amp;start=9" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+  </div>
+  </p>
+</div>
+
+<div class="row">
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=PLL|alg=M2 U M2 U2 M2 U M2"></div>
+    <div class="text-nowrap">
+        <p class="name">H</p>
+        <p class="alg">M2 U M2 U2 M2 U M2</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=PLL|alg=M' U M2 U M2 U M' U2 M2"></div>
+    <div class="text-nowrap">
+        <p class="name">Z</p>
+        <p class="alg">M' U (M2 U M2 U) M' U2 M2</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=PLL|alg=M2 U M U2 M' U M2"></div>
+    <div class="text-nowrap">
+        <p class="name">Ua</p>
+        <p class="alg">M2 U (M U2 M') U M2</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=PLL|alg=M2 U' M U2 M' U' M2"></div>
+    <div class="text-nowrap">
+        <p class="name">Ub</p>
+        <p class="alg">M2 U' (M U2 M') U' M2</p>
+    </div>
+  </div>
+</div>
+
+
+        <h2 id="full-corner-only">Corner only</h2>
+<p style="float:right;">
+  <a class="btn btn-primary" data-toggle="collapse" href="#fingertricks-74" role="button" aria-expanded="false" aria-controls="fingertricks-74">
+    fingertricks
+  </a>
+</p>
+<div class="collapse" id="fingertricks-74">
+  <p>
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JvqGU0UZPcE?rel=0&amp;showinfo=0&amp;start=74" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+  </div>
+  </p>
+</div>
+
+<div class="row">
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=PLL|alg=x L2 D2 L' U' L D2 L' U L'"></div>
+    <div class="text-nowrap">
+        <p class="name">Aa</p>
+        <p class="alg">x L2 D2 (L' U' L) D2 (L' U L')</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=PLL|alg=x' L2 D2 L U L' D2 L U' L"></div>
+    <div class="text-nowrap">
+        <p class="name">Ab</p>
+        <p class="alg">x' L2 D2 (L U L') D2 L U' L</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=PLL|alg=x' L' U L D' L' U' L D L' U' L D' L' U L D"></div>
+    <div class="text-nowrap">
+        <p class="name">E</p>
+        <p class="alg">x' (L' U L D') (L' U' L D) (L' U' L D') (L' U L D)</p>
+    </div>
+  </div>
+</div>
+
+
+        <h2 id="full-adjacent-corner-swap">Adjacent corner swap</h2>
+<p style="float:right;">
+  <a class="btn btn-primary" data-toggle="collapse" href="#fingertricks-133" role="button" aria-expanded="false" aria-controls="fingertricks-133">
+    fingertricks
+  </a>
+</p>
+<div class="collapse" id="fingertricks-133">
+  <p>
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JvqGU0UZPcE?rel=0&amp;showinfo=0&amp;start=133" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+  </div>
+  </p>
+</div>
+
+<div class="row">
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=PLL|alg=R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R"></div>
+    <div class="text-nowrap">
+        <p class="name">F</p>
+        <p class="alg">(R' U' F') R U R' U' R' F R2 U' R' U' R U R' U R</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=PLL|alg=x R2 F R F' R U2 r' U r U2"></div>
+    <div class="text-nowrap">
+        <p class="name">Ja</p>
+        <p class="alg">x R2 F R F' R U2 r' U r U2</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=PLL|alg=R U R' F' R U R' U' R' F R2 U' R'"></div>
+    <div class="text-nowrap">
+        <p class="name">Jb</p>
+        <p class="alg">(R U R' F') (R U R' U') R' F R2 U' R'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=PLL|alg=R U' R' U' R U R D R' U' R D' R' U2 R'"></div>
+    <div class="text-nowrap">
+        <p class="name">Ra</p>
+        <p class="alg">(R U' R' U') (R U R D) (R' U' R D') R' U2 R'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=PLL|alg=R2 F R U R U' R' F' R U2 R' U2 R"></div>
+    <div class="text-nowrap">
+        <p class="name">Rb</p>
+        <p class="alg">R2 F R (U R U' R') F' R U2 R' U2 R</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=PLL|alg=R U R' U' R' F R2 U' R' U' R U R' F'"></div>
+    <div class="text-nowrap">
+        <p class="name">T</p>
+        <p class="alg">(R U R' U') R' F R2 (U' R' U') (R U R' F')</p>
+    </div>
+  </div>
+</div>
+
+
+        <h2 id="full-diagonal-corner-swap">Diagonal corner swap</h2>
+<p style="float:right;">
+  <a class="btn btn-primary" data-toggle="collapse" href="#fingertricks-243" role="button" aria-expanded="false" aria-controls="fingertricks-243">
+    fingertricks
+  </a>
+</p>
+<div class="collapse" id="fingertricks-243">
+  <p>
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JvqGU0UZPcE?rel=0&amp;showinfo=0&amp;start=243" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+  </div>
+  </p>
+</div>
+
+<div class="row">
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=PLL|alg=F R U' R' U' R U R' F' R U R' U' R' F R F'"></div>
+    <div class="text-nowrap">
+        <p class="name">Y</p>
+        <p class="alg">F (R U' R' U') (R U R' F') (R U R' U') (R' F R F')</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=PLL|alg=R' U R' U' y R' F' R2 U' R' U R' F R F"></div>
+    <div class="text-nowrap">
+        <p class="name">V</p>
+        <p class="alg">R' U R' U' y R' F' R2 U' R' U R' F R F</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=PLL|alg=R U R' U R U R' F' R U R' U' R' F R2 U' R' U2 R U' R'"></div>
+    <div class="text-nowrap">
+        <p class="name">Na</p>
+        <p class="alg">R U R' U (R U R' F' R U R' U' R' F R2 U' R') U2 R U' R'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=PLL|alg=R' U R U' R' F' U' F R U R' F R' F' R U' R"></div>
+    <div class="text-nowrap">
+        <p class="name">Nb</p>
+        <p class="alg">R' (U R U' R') (F' U' F) (R U R' F) R' F' R U' R</p>
+    </div>
+  </div>
+</div>
+
+
+        <h2 id="full-g">G permutations</h2>
+<p style="float:right;">
+  <a class="btn btn-primary" data-toggle="collapse" href="#fingertricks-310" role="button" aria-expanded="false" aria-controls="fingertricks-310">
+    fingertricks
+  </a>
+</p>
+<div class="collapse" id="fingertricks-310">
+  <p>
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JvqGU0UZPcE?rel=0&amp;showinfo=0&amp;start=310" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+  </div>
+  </p>
+</div>
+
+<div class="row">
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=PLL|alg=R2 U R' U R' U' R U' R2 U' D R' U R D'"></div>
+    <div class="text-nowrap">
+        <p class="name">Ga</p>
+        <p class="alg">R2 U R' U R' U' R U' R2 (U' D) R' U R D'</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=PLL|alg=R' U' R U D' R2 U R' U R U' R U' R2 D"></div>
+    <div class="text-nowrap">
+        <p class="name">Gb</p>
+        <p class="alg">R' U' R (U D') R2 U R' U R U' R U' R2 D</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=PLL|alg=R2 U' R U' R U R' U R2 U D' R U' R' D"></div>
+    <div class="text-nowrap">
+        <p class="name">Gc</p>
+        <p class="alg">R2 U' R U' R U R' U R2 (U D') R U' R' D</p>
+    </div>
+  </div>
+  <div class="col-md-5 col-sm-6">
+    <div class="roofpig" data-config="base=PLL|alg=R U R' U' D R2 U' R U' R' U R' U R2 D'"></div>
+    <div class="text-nowrap">
+        <p class="name">Gd</p>
+        <p class="alg">R U R' (U' D) R2 U' R U' R' U R' U R2 D'</p>
     </div>
   </div>
 </div>

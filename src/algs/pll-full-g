@@ -1,0 +1,12 @@
+name: Ga
+R2 U R' U R' U' R U' R2 (U' D) R' U R D'
+
+name: Gb
+R' U' R (U D') R2 U R' U R U' R U' R2 D
+
+name: Gc
+R2 U' R U' R U R' U R2 (U D') R U' R' D
+
+name: Gd
+R U R' (U' D) R2 U' R U' R' U R' U R2 D'
+

@@ -1,0 +1,18 @@
+name: F
+(R' U' F') R U R' U' R' F R2 U' R' U' R U R' U R
+
+name: Ja
+x R2 F R F' R U2 r' U r U2
+
+name: Jb
+(R U R' F') (R U R' U') R' F R2 U' R'
+
+name: Ra
+(R U' R' U') (R U R D) (R' U' R D') R' U2 R'
+
+name: Rb
+R2 F R (U R U' R') F' R U2 R' U2 R
+
+name: T
+(R U R' U') R' F R2 (U' R' U') (R U R' F')
+
