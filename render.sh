@@ -17,15 +17,21 @@ render() {
         $CUBE render_cases $f > $ALGS_DST/$(basename $f).tpl
     done
 
-    mkdir -p $name
-    echo "rendering $name/index.html"
-    $CUBE render_page $name > $name/index.html
+    if [ "$name" == "home" ]; then
+        echo "rendering ./index.html"
+        $CUBE render_page $name > ./index.html
+    else
+        mkdir -p $name
+        echo "rendering $name/index.html"
+        $CUBE render_page $name > $name/index.html
+    fi
 }
 
 case "$1" in
-    f2l) render f2l ;;
-    oll) render oll ;;
-    pll) render pll ;;
-    *)   render f2l; render oll; render pll;;
+    f2l)  render f2l ;;
+    oll)  render oll ;;
+    pll)  render pll ;;
+    home) render home ;;
+    *)    render f2l; render oll; render pll; render home;;
 esac
 

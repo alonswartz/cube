@@ -1,0 +1,24 @@
+name: F2L: both-top white-up
+config: base=F2L
+U2 (R U R') U (R U' R')
+
+name: F2L: both-top white-up
+config: base=F2L
+y U2 (L' U' L) U' (L' U L)
+
+name: OLL: 51
+config: base=OLL
+F (U R U' R') (U R U' R') F'
+
+name: OLL: 52
+config: base=OLL
+(R U R' U) R U' (B U' B') R'
+
+name: PLL: Ja
+config: base=PLL
+x R2 F R F' R U2 r' U r U2
+
+name: PLL: Jb
+config: base=PLL
+(R U R' F') (R U R' U') R' F R2 U' R'
+
