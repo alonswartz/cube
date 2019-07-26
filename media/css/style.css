@@ -14,6 +14,9 @@ body {
   -moz-border-radius: 0;
   border-radius: 0;
 }
+.bd-navbar {
+  background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgb(71, 71, 71)), to(rgb(121, 125, 182)));
+}
 .bd-sidebar .nav>li>.nav-h1 {
   font-size: 1rem;
 }
